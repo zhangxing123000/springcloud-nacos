@@ -1,0 +1,15 @@
+spring:
+    application:
+        name: spcd-user
+    cloud:
+        nacos:
+            config:
+                server-addr: 127.0.0.1:8848
+                file-extension: yml # 假如不配置，则nacos远程配置文件的后缀为.properties
+                prefix: spcd-user
+                namespace: 65974cb7-7aaa-460e-b1c8-85cc703ec1b3
+            discovery:
+                server-addr: 127.0.0.1:8848
+                namespace: 65974cb7-7aaa-460e-b1c8-85cc703ec1b3
+    profiles:
+        active: dev

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spcd.iml" filepath="$PROJECT_DIR$/spcd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spcd-common/spcd-common.iml" filepath="$PROJECT_DIR$/spcd-common/spcd-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spcd-order/spcd-order.iml" filepath="$PROJECT_DIR$/spcd-order/spcd-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spcd-user/spcd-user.iml" filepath="$PROJECT_DIR$/spcd-user/spcd-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spcd-user-pojo/spcd-user-pojo.iml" filepath="$PROJECT_DIR$/spcd-user-pojo/spcd-user-pojo.iml" />
+    </modules>
+  </component>
+</project>
