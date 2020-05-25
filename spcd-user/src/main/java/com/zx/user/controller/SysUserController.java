@@ -44,10 +44,10 @@ public class SysUserController {
         }
 
         SysUser  user = new SysUser();
-        user.setName(bo.getName());
-        user.setSex(Integer.valueOf(bo.getSex()));
-        user.setBirthday(LocalDate.parse(bo.getBirthday(), DateTimeFormatter.ofPattern("yyyy-MM-dd")));
-        user.setCreateTime(LocalDateTime.now());
+        user.setName(bo.getName())
+                .setSex(Integer.valueOf(bo.getSex()))
+                .setBirthday(LocalDate.parse(bo.getBirthday(), DateTimeFormatter.ofPattern("yyyy-MM-dd")))
+                .setCreateTime(LocalDateTime.now());
         sysUserService.save(user);
         return AppResultBuilder.success(user.getId());
 

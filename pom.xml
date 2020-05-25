@@ -12,6 +12,7 @@
         <module>spcd-user-pojo</module>
         <module>spcd-common</module>
         <module>spcd-order</module>
+        <module>spcd-web</module>
     </modules>
     <packaging>pom</packaging>
 
